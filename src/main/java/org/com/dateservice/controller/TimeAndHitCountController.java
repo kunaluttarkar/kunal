@@ -18,8 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class TimeAndHitCountController {
 	private static int hitcount=0;
 	
-	/** Return an ISO 8601 combined date and time string for current date/time along with 
-	 *  number of times the service was called
+	/** return date and time string along with number of hits to url 
 	 * @return TimeAndHitCountModel
 	 */
 	@RequestMapping(value="/getTimeAndHitCount",method=RequestMethod.GET)
