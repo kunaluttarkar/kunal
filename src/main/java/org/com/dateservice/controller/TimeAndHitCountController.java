@@ -20,7 +20,7 @@ public class TimeAndHitCountController {
 	
 	/** Return an ISO 8601 combined date and time string for current date/time along with 
 	 *  number of times the service was called
-	 * @return TimeStampModel
+	 * @return TimeAndHitCountModel
 	 */
 	@RequestMapping(value="/getTimeAndHitCount",method=RequestMethod.GET)
 	public @ResponseBody TimeAndHitCountModel getTimeAndHitCount(){
